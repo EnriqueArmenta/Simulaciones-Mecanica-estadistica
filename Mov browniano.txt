@@ -1,0 +1,17 @@
+El código simula el movimiento de una partícula dentro de una caja utilizando el movimiento browniano. 
+El movimiento browniano es un fenómeno físico en el que una partícula se mueve de manera errática 
+debido al movimiento aleatorio de las moléculas del fluido que la rodea. 
+En este caso, se simula el movimiento de la partícula utilizando un proceso en el cual
+la partícula se mueve en una dirección aleatoria cada cierto tiempo.
+
+El script utiliza la biblioteca "matplotlib" para crear una animación de la trayectoria de la partícula.
+La animación se crea mediante la función "FuncAnimation" , que llama a la función "update"
+en cada frame de la animación. 
+La función "update" actualiza la posición de la partícula y devuelve un objeto que representa 
+la trayectoria de la partícula.
+
+Para simular el movimiento browniano, se utilizan números aleatorios generados por la función 
+"randn" de la biblioteca "numpy". En cada paso de tiempo, se genera un vector de dos dimensiones
+que representa un movimiento aleatorio de la partícula en la dirección "x" y "y". 
+Este vector se suma a la posición actual de la partícula para obtener su nueva posición y
+dibujar su traza
