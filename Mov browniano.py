@@ -1,3 +1,5 @@
+#Simulación del movimiento Browniano de una partícula dentro de una caja
+#Jesús Enrique Armenta Lara, matrícula 201802397
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
